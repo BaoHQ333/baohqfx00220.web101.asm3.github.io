@@ -1,0 +1,105 @@
+@media screen and (max-width: 600px) {
+  /* BANNER IMAGE*/
+  #banner img {
+    object-position: -310px 0px;
+  }
+
+  /* LINK NAV BAR THÔNG TIN ~ DỰ ÁN */
+  #nav-bar .container {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #nav-bar a {
+    border-left: none;
+  }
+  #nav-bar .a-last {
+    border-right: none;
+  }
+  #nav-bar .span-div {
+    display: none;
+  }
+  #nav-bar div {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  /* MỤC TIÊU NGHỀ NGHIỆP - THÔNG TIN CÁ NHÂN */
+  #about .row {
+    display: block;
+  }
+  #about h1 {
+    padding: 50px 40px 30px 20px;
+  }
+  #about p,
+  ul {
+    padding: 0px 40px 30px 20px;
+  }
+  #about ul {
+    padding: 0px 40px 0px 20px;
+  }
+  .personal-info .icon {
+    padding: 0px 40px 50px 20px;
+  }
+  .form-email {
+    padding: 0px 40px 30px 20px;
+  }
+
+  /* SỞ THÍCH */
+  .like-content .col-lg-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* CHỨNG CHỈ - GIẢI THƯỞNG */
+  #certificate .container {
+    padding: 50px 20px;
+  }
+  #certificate .certificate-flex {
+    display: block;
+  }
+  .certificate-block-2 {
+    border-left: none;
+    padding-left: 0;
+  }
+  .certificate-block {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .certificate-block-1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /* DỰ ÁN */
+  #project .container {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  #project .project-container {
+    display: block;
+    padding-bottom: 0;
+  }
+  .project-block {
+    margin-bottom: 30px;
+  }
+  .project-block:last-child {
+    margin-bottom: 0;
+  }
+  /* PROJECT TIMELINE YEAR */
+  .project-block .project-timeline .br {
+    display: unset;
+  }
+  .project-block .project-timeline {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  /* FOOTER */
+  #footer a {
+    padding-left: 11%;
+    padding-right: 5%;
+  }
+  #footer i {
+    left: -8%;
+  }
+}

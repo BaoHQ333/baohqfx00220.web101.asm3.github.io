@@ -1,0 +1,114 @@
+.body {
+  background: #1d9dd9;
+}
+
+.body .container-fluid {
+  margin: 20px;
+  padding: 0;
+  width: unset;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+  padding: 15px;
+}
+
+.row .col-lg-6,
+.row .col-lg-3 {
+  padding: 0 8px;
+}
+.row:last-child {
+  padding-right: 10px;
+}
+.row:first-child {
+  padding-left: 10px;
+}
+
+.timeline {
+  min-height: 710px;
+}
+.goals,
+.team {
+  min-height: 370px;
+}
+.scopes,
+.primary {
+  margin-top: 15px;
+  min-height: 325px;
+}
+
+h3 {
+  color: #1d9dd9;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  padding-bottom: 15px;
+}
+
+img {
+  height: 25px;
+}
+
+/* GOALS */
+.img-goals {
+  width: 18%;
+  text-align: center;
+  padding-top: 10px;
+}
+.goal-content {
+  width: 82%;
+}
+.goals .goal {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-top: 10px;
+}
+
+/* SCOPES */
+.scopes .d-lg-flex {
+  padding: 5px 10px;
+}
+.scope h4 {
+  text-transform: uppercase;
+}
+.scope p {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+/* TEAM - PRIMARY */
+.img-team-primary {
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  margin-left: -5px;
+}
+.primary p {
+  width: 80%;
+}
+
+/* TIMELINE */
+.timeline .d-lg-flex {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.num-area {
+  width: 110px;
+}
+.number {
+  margin: auto;
+  font-size: 20px;
+  color: #f7f7f7;
+  text-align: center;
+  padding-top: 7px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(147, 180, 221);
+  border: 2px solid rgb(99, 110, 183);
+}
+.timeline-content {
+  border-bottom: 1px dashed #1d9dd9;
+  padding-left: 15px;
+  width: 100%;
+}
+.timeline-content p {
+  margin-bottom: 6px;
+}

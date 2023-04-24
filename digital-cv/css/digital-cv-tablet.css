@@ -1,0 +1,28 @@
+@media screen and (max-width: 992px) {
+  .team,
+  .timeline {
+    margin-top: 15px;
+  }
+
+  /* GOAL - TEAM - PRIMARY */
+  .img-goals,
+  .img-team-primary {
+    margin: auto;
+  }
+  .goal-content {
+    padding: 0 15px;
+    width: unset;
+  }
+  .team .d-md-block,
+  .primary .d-md-block {
+    padding: 0 15px;
+  }
+  .primary p {
+    width: unset;
+  }
+
+  /* TIMELINE */
+  .number {
+    margin-left: 15px;
+  }
+}
